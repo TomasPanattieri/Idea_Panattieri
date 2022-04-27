@@ -165,21 +165,21 @@ li {
   color: red; }
 
 .navbar {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  align-items: center;
+  display: grid !important;
+  grid-template-columns: repeat(8, 1fr) !important;
+  align-items: center !important;
   background-color: #0a9396; }
   .navbar ul {
-    display: flex;
-    align-items: center;
-    grid-column: 2/8;
-    justify-content: space-around; }
+    display: flex !important;
+    align-items: center !important;
+    grid-column: 2/8 !important;
+    justify-content: space-around !important; }
   .navbar li {
-    list-style: none; }
+    list-style: none !important; }
   .navbar a {
-    list-style: none;
-    text-decoration: none;
-    color: white; }
+    list-style: none !important;
+    text-decoration: none !important;
+    color: white !important; }
 
 .logo {
   width: 110px;
