@@ -1,3 +1,5 @@
+
+@import "_variables";
 @mixin p {
     color: white;
     font: italic
@@ -20,8 +22,6 @@ $ancho-2: map-get($anchos,ancho-2);
 $ancho-3: map-get($anchos,ancho-3);
 $ancho-4: map-get($anchos,ancho-4);
 $ancho-5: map-get($anchos,ancho-5);
-@import "_mediaqueries";
-@import "_variables";
 $font-weights:normal bold italic;
 @each $font in (normal,bold,italic){
     .#{$font} {font-weight: $font;}
@@ -813,3 +813,4 @@ footer {
 #button {
     border-radius: 20px !important;
 }
+@import "mediaqueries";
