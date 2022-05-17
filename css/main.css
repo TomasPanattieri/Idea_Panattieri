@@ -129,16 +129,16 @@ div #pp {
     color: white !important; }
 
 .card1 {
-  background-image: url(http://files.tpg.ua/Sagrada-Familia-Barcelona-Spain.jpg); }
+  background-image: url(https://res.cloudinary.com/webspeedtest/image/upload/c_limit,dpr_1,h_330,q_auto,w_587/v1652826800/cw1busd0mg9nx0ugdwfk.jpg); }
 
 .card2 {
   background-image: url(https://www.teahub.io/photos/full/314-3148761_architecture-wallpaper-4k.jpg); }
 
 .card3 {
-  background-image: url(https://www.floornature.es/media/photos/1/16671/01_ZHA_Infinitus-Plaza_Photo-by-Liang-Xue_full.jpg); }
+  background-image: url(https://res.cloudinary.com/webspeedtest/image/upload/c_limit,dpr_1,h_330,q_auto,w_461/v1652826800/euugn5q2xsilsjfn6wjh.jpg); }
 
 .card4 {
-  background-image: url(https://s1.eestatic.com/2016/03/31/cultura/arte/zaha_hadid-arquitectura-diseno_113750028_3133240_854x640.jpg); }
+  background-image: url(https://res.cloudinary.com/webspeedtest/image/upload/c_limit,dpr_1,h_330,q_auto,w_440/v1652826800/r6dqs5vjlbtnztu6ql96.jpg); }
 
 .card:hover {
   transform: translateY(-10px) !important; }

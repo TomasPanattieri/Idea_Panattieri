@@ -43,12 +43,12 @@ li {
 }
 .navbar {
   display: grid !important ;
-  grid-template-columns: repeat(8, 1fr)!important  ;
+  grid-template-columns: repeat(8, 1fr) !important  ;
   align-items: center !important ;
-  background-color: $color3!important ;
+  background-color: $color3 !important ;
   ul {
     display: flex !important ;
-    align-items: center!important  ;
+    align-items: center !important  ;
     grid-column: 2/8 !important ;
     justify-content: space-around !important ;
   }
@@ -62,70 +62,70 @@ li {
   }
 }
 .logo {
-  width: ($ancho-4/2)+10!important ;
-  cursor: pointer!important ;
+  width: ($ancho-4/2)+10 !important ;
+  cursor: pointer !important ;
 }
 .estilo {
-  color: $color3!important ;
+  color: $color3 !important ;
 }
 .home:hover {
-  transform: translateY($hover-1)!important ;
-  transition: transform 0.5s!important ;
+  transform: translateY($hover-1) !important ;
+  transition: transform 0.5s !important ;
 }
 .reformas:hover {
-  transform: translateY($hover-1)!important ;
-  transition: transform 0.5s!important ;
+  transform: translateY($hover-1) !important ;
+  transition: transform 0.5s !important ;
 }
 .interiorismo:hover {
-  transform: translateY($hover-1)!important ;
-  transition: transform 0.5s!important ;
+  transform: translateY($hover-1) !important ;
+  transition: transform 0.5s !important ;
 }
 .estudio:hover {
-  transform: translateY($hover-1)!important ;
-  transition: transform 0.5s!important ;
+  transform: translateY($hover-1) !important ;
+  transition: transform 0.5s !important ;
 }
 .contacto:hover {
-  transform: translateY($hover-1)!important ;
-  transition: transform 0.5s!important ;
+  transform: translateY($hover-1) !important ;
+  transition: transform 0.5s !important ;
 }
 
 .home {
-  transition: transform 0.5s!important ;
+  transition: transform 0.5s !important ;
 }
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr!important ;
+  grid-template-columns: 1fr 1fr !important ;
 }
 .container-fluid {
-  background-color: $color4!important ;
+  background-color: $color4 !important ;
 }
 .coldos {
   display: grid;
-  grid-template-columns: ($ancho-2)-30 ($ancho-2)-30!important ;
-  grid-column-start: -1!important ;
-  -ms-grid-column-align: center!important ;
-  padding-left: 150px!important ;
+  grid-template-columns: ($ancho-2)-30 ($ancho-2)-30 !important ;
+  grid-column-start: -1 !important ;
+  -ms-grid-column-align: center !important ;
+  padding-left: 150px !important ;
 }
 .container {
-  align-items: center!important ;
-  -ms-grid-column-align: center!important ;
+  align-items: center !important ;
+  -ms-grid-column-align: center !important ;
 }
 div {
   h2 {
-    font-size: ($ancho-4/2)-20!important ;
-    text-align: center!important ;
-    color: $color1!important ;
-    padding: 5px!important ;
-    text-decoration: none!important ;
+    font-size: ($ancho-4/2)-20 !important ;
+    text-align: center !important ;
+    color: $color1 !important ;
+    padding: 5px !important ;
+    text-decoration: none !important ;
   }
 }
 .coluno {
   p {
     color: $color2 !important ;
-    font-size: 15px!important  ;
+    font-size: 15px !important  ;
     padding: 40px !important ;
-    line-height: 15px!important  ;
+    line-height: 15px !important  ;
   }
 }
 div {
@@ -139,10 +139,10 @@ div {
   height: ($ancho-2)-30 !important ;
   display: inline-block !important ;
   border-radius: 20px !important ;
-  padding: 15px!important  ;
+  padding: 15px !important  ;
   box-sizing: border-box !important ;
   cursor: pointer !important ;
-  margin: 10px 15px!important ;
+  margin: 10px 15px !important ;
   background-position: center !important ;
   background-size: cover !important ;
   transition: transform 0.5s !important ;
@@ -150,21 +150,21 @@ div {
     font-size: 15px !important ;
   }
   p {
-    font-size: 13px!important  ;
-    color: $color1!important ;
+    font-size: 13px !important  ;
+    color: $color1 !important ;
   }
 }
 .card1 {
-  background-image: url(http://files.tpg.ua/Sagrada-Familia-Barcelona-Spain.jpg) ;
+  background-image: url(https://res.cloudinary.com/webspeedtest/image/upload/c_limit,dpr_1,h_330,q_auto,w_587/v1652826800/cw1busd0mg9nx0ugdwfk.jpg);
 }
 .card2 {
-  background-image: url(https://www.teahub.io/photos/full/314-3148761_architecture-wallpaper-4k.jpg) ;
+  background-image: url(https://www.teahub.io/photos/full/314-3148761_architecture-wallpaper-4k.jpg);
 }
 .card3 {
-  background-image: url(https://www.floornature.es/media/photos/1/16671/01_ZHA_Infinitus-Plaza_Photo-by-Liang-Xue_full.jpg) ;
+  background-image: url(https://res.cloudinary.com/webspeedtest/image/upload/c_limit,dpr_1,h_330,q_auto,w_461/v1652826800/euugn5q2xsilsjfn6wjh.jpg);
 }
 .card4 {
-  background-image: url(https://s1.eestatic.com/2016/03/31/cultura/arte/zaha_hadid-arquitectura-diseno_113750028_3133240_854x640.jpg) ;
+  background-image: url(https://res.cloudinary.com/webspeedtest/image/upload/c_limit,dpr_1,h_330,q_auto,w_440/v1652826800/r6dqs5vjlbtnztu6ql96.jpg);
 }
 .card:hover {
   transform: translateY(-10px) !important ;
@@ -177,76 +177,76 @@ section {
   }
 }
 .serv {
-  padding-left: 60px ;
+  padding-left: 60px;
 }
 .contenedor {
-  background-color: #1a759f ;
+  background-color: #1a759f;
   background-position: center;
   background-size: cover;
 }
 
 .menus {
-  display: grid ;
-  grid-template-columns: repeat(8, 1fr) ;
-  align-items: center ;
-  background-color: $color5 ;
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  align-items: center;
+  background-color: $color5;
   ul {
     display: flex;
-    align-items: center ;
-    grid-column: 2/8 ;
-    justify-content: space-around ;
+    align-items: center;
+    grid-column: 2/8;
+    justify-content: space-around;
   }
 }
 
 .menu-horizontal {
-  list-style: none ;
-  display: flex ;
-  justify-content: space-around  ;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
   li {
     a {
-      display: block ;
-      padding: 15px 20px ;
-      text-decoration: none ;
-      color: $color1 ;
+      display: block;
+      padding: 15px 20px;
+      text-decoration: none;
+      color: $color1;
       color: $color6;
     }
   }
 }
 .div-container {
-  background-image: url(https://meikmag.com/wp-content/uploads/2021/10/Heydar-Alliev-Center-Baku-scaled.jpg) ;
-  display: grid ;
-  grid-template-columns: 1fr 1fr  ;
-  align-items: center ;
+  background-image: url(https://meikmag.com/wp-content/uploads/2021/10/Heydar-Alliev-Center-Baku-scaled.jpg);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
 }
 .column {
-  flex-basis: 50% ;
-  padding-left: 10px ;
+  flex-basis: 50%;
+  padding-left: 10px;
 }
 .sagrada:hover {
-  transform: translateY($hover-1) ;
+  transform: translateY($hover-1);
 }
 .sagrada {
-  width: ($ancho-3)-100 ;
-  height: ($ancho-3)-100 ;
-  display: grid ;
-  cursor: pointer ;
-  background-position: center ;
-  background-size: cover ;
-  transition: transform 0.5s ;
-  padding-left: 30px ;
+  width: ($ancho-3)-100;
+  height: ($ancho-3)-100;
+  display: grid;
+  cursor: pointer;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.5s;
+  padding-left: 30px;
   border: none;
   padding-left: 40px;
-  display: grid ;
-  align-items: center ;
+  display: grid;
+  align-items: center;
   padding: 0 20px 0 40px;
 }
 .table-container {
-  padding: 0 0 100px 50px ;
-  margin: 40px auto 0 ;
-  width: 100% ;
-  border-collapse: collapse ;
-  text-align: center ;
-  align-items: center ;
+  padding: 0 0 100px 50px;
+  margin: 40px auto 0;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  align-items: center;
 }
 .parrafo {
   h2 {
@@ -260,14 +260,14 @@ section {
   thead {
     tr {
       th {
-        font-size: 14px ;
-        font-weight: 600 ;
-        letter-spacing: 0.35px ;
-        color: $color1 ;
-        opacity: 1 ;
-        padding: 12px ;
-        vertical-align: top ;
-        border: $ancho-5 solid ;
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 0.35px;
+        color: $color1;
+        opacity: 1;
+        padding: 12px;
+        vertical-align: top;
+        border: $ancho-5 solid;
       }
     }
   }
@@ -277,14 +277,14 @@ section {
   tbody {
     tr {
       td {
-        font-size: 14px ;
-        letter-spacing: 0.35px ;
-        font-weight: normal ;
-        color: #f1f1f1 ;
-        background-color: $color12 ;
-        padding: 8px ;
-        text-align: center ;
-        border: $ancho-5 solid ;
+        font-size: 14px;
+        letter-spacing: 0.35px;
+        font-weight: normal;
+        color: #f1f1f1;
+        background-color: $color12;
+        padding: 8px;
+        text-align: center;
+        border: $ancho-5 solid;
       }
     }
   }
@@ -308,13 +308,13 @@ section {
   }
 }
 .gridos {
-  display: grid ;
-  grid-template-columns: 1fr ;
+  display: grid;
+  grid-template-columns: 1fr;
 }
 div {
   form {
-    display: block ;
-    width: 500px ;
+    display: block;
+    width: 500px;
   }
 }
 #pie {
@@ -798,6 +798,6 @@ footer {
   transition: transform 0.5s;
 }
 #button {
-  border-radius: 20px ;
+  border-radius: 20px;
 }
 @import "mediaqueries";
